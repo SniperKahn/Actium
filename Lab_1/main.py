@@ -24,5 +24,5 @@ class AdeeptController:
         return response == "ACK"
 
 # Usage in the exercise:
-arm = AdeeptController('/dev/cu.usbserial-1140')
-arm.move_to_angles([90, 45, 120, 30, 0])
+arm = AdeeptController('/dev/cu.usbserial-11320')
+arm.move_to_angles([90, 90, 90, 90, 180])
